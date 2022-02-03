@@ -4,47 +4,47 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## TABELA DE CONTEÚDO
+<!-- ## TABELA DE CONTEÚDO -->
 
 <!-- OVERVIEW -->
 
-## VISTA POR CIMA
+<!-- ## VISTA POR CIMA -->
 
 <!-- SCREENSHOT -->
 
-### FOTO DA TELA
+<!-- ### FOTO DA TELA -->
 
 <!-- LINKS -->
 
-### LINKS
+<!-- ### LINKS -->
 
 <!-- MY PROCESS -->
 
-## MEU PROCESSO
+<!-- ## MEU PROCESSO -->
 
 <!-- BUILT WITH -->
 
-### CONSTRUIDO COM
+<!-- ### CONSTRUIDO COM -->
 
 <!-- WHAT I LEARNED -->
 
-### O QUE APRENDI
+<!-- ### O QUE APRENDI -->
 
 <!-- CONTINUED DEVELOPMENT -->
 
-### DESENVOLVIMENTO CONTÍNUO
+<!-- ### DESENVOLVIMENTO CONTÍNUO -->
 
 <!-- USEFUL -->
 
-### RECURSOS ÚTEIS
+<!-- ### RECURSOS ÚTEIS -->
 
 <!-- AUTHOR -->
 
-## AUTOR
+<!-- ## AUTOR -->
 
 <!-- ACKNOWLEDGMENTS -->
 
-## AGRADECIMENTOS
+<!-- ## AGRADECIMENTOS -->
 
 <!-- INFORMATION -->
 
