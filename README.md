@@ -1,65 +1,37 @@
-<!-- TITLE -->
+<!-- Título -->
+# O Atributo de Visibilidade “Protected”
 
-# CURSO DE NODE.JS
+***Conteúdo da Aula:***
 
-<!-- TABLE OF CONTENTS -->
+Em algumas situações, nós precisamos **encapsular** um `atributo` ou `método` para que este não seja acessível de maneira direta por outros objetos, mas nós precisamos que este atributo ou método seja visível nas **superclasses** e também nas **subclasses**.
 
-<!-- ## TABELA DE CONTEÚDO -->
+Veja:
 
-<!-- OVERVIEW -->
+* Nós não podemos tornar este atributo ou método público, porque senão ele seria acessível em qualquer objeto da nossa aplicação.
 
-<!-- ## VISTA POR CIMA -->
+* Também não podemos o tornar privado, porque senão somente a superclasse teria acesso.
 
-<!-- SCREENSHOT -->
+* Nós precisamos de um meio termo entre o ***public*** e o ***private***.
 
-<!-- ### FOTO DA TELA -->
+Nestes casos em específico, podemos utilizar o atributo de visibilidade *protected*.
 
-<!-- LINKS -->
+Membros protegidos são atributos ou métodos que só são acessíveis nas superclasses e em suas respectivas subclasses.
 
-<!-- ### LINKS -->
+As vídeo-aulas a seguir irão abordar situações onde precisaremos deste atributo de visibilidade.
 
-<!-- MY PROCESS -->
+<!-- Informações -->
+## &#8505; Informações
 
-<!-- ## MEU PROCESSO -->
-
-<!-- BUILT WITH -->
-
-<!-- ### CONSTRUIDO COM -->
-
-<!-- WHAT I LEARNED -->
-
-<!-- ### O QUE APRENDI -->
-
-<!-- CONTINUED DEVELOPMENT -->
-
-<!-- ### DESENVOLVIMENTO CONTÍNUO -->
-
-<!-- USEFUL -->
-
-<!-- ### RECURSOS ÚTEIS -->
-
-<!-- AUTHOR -->
-
-<!-- ## AUTOR -->
-
-<!-- ACKNOWLEDGMENTS -->
-
-<!-- ## AGRADECIMENTOS -->
-
-<!-- INFORMATION -->
-
-## INFORMAÇÕES
-
-![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fnode.js-full-stack&label=Visitantes&labelColor=%23f9e64f&countColor=%23008000&style=plastic "Total de Visitas")
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fcla-atr-vis-pro-her-log-ori-obj-com-bas&label=Visitantes&labelColor=%23700070&labelStyle=none&countColor=%23000fff&style=plastic&color=%23ffffff "Total de Visitantes")
 &nbsp;
-![followrs](https://img.shields.io/github/followers/Devsgeeknerd?style=plastic&label=SEGUIDORES&labelColor=f9e64f "Total de Seguidores")
+![Followers](https://img.shields.io/github/followers/Devsgeeknerd?style=p&label=Seguidores&labelColor=800080&color=000fff "Total de Seguidores")
 &nbsp;
-![watchers](https://img.shields.io/github/watchers/Devsgeeknerd/node.js-full-stack?style=plastic&label=OBSERVADORES&labelColor=f9e64f "Total de Observadores")
+![Watchers](https://img.shields.io/github/watchers/Devsgeeknerd/cla-atr-vis-pro-her-log-ori-obj-com-bas?style=p&label=Observadores&labelColor=800080&color=000fff "Total de Observadores")
 &nbsp;
-![stars](https://img.shields.io/github/stars/Devsgeeknerd/node.js-full-stack?style=plastic&label=ESTRELAS&labelColor=f9e64f "Total de Estrelas Recebidas")
+![Stars](https://img.shields.io/github/stars/Devsgeeknerd/cla-atr-vis-pro-her-log-ori-obj-com-bas?style=p&label=Estrelas&labelColor=800080&color=000fff "Total de Estrelas")
 &nbsp;
-![forks](https://img.shields.io/github/forks/Devsgeeknerd/node.js-full-stack?style=plastic&label=BIFURCAÇÕES&labelColor=f9e64f "Total de Bifurcações")
+![Forks](https://img.shields.io/github/forks/Devsgeeknerd/cla-atr-vis-pro-her-log-ori-obj-com-bas?style=p&label=Bifurcações&labelColor=800080&color=000fff "Total de Bifurcações")
 &nbsp;
-![repo size](https://img.shields.io/github/repo-size/Devsgeeknerd/node.js-full-stack?style=plastic&label=TAMANHO&labelColor=f9e64f "Tamanho do Repositório")
+![Repo Size](https://img.shields.io/github/repo-size/Devsgeeknerd/cla-atr-vis-pro-her-log-ori-obj-com-bas?style=p&label=Tamanho&labelColor=800080&color=000fff "Tamanho do Repositório")
 &nbsp;
-![license](https://img.shields.io/github/license/Devsgeeknerd/node.js-full-stack?style=plastic&label=LICENÇA&labelColor=f9e64f "Licença do Repositório")
+![License](https://img.shields.io/github/license/Devsgeeknerd/cla-atr-vis-pro-her-log-ori-obj-com-bas?style=p&label=Licença&labelColor=800080&color=000fff "Licença do Repositório")
