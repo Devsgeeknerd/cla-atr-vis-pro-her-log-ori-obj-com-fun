@@ -88,7 +88,7 @@ Membros protegidos são atributos ou métodos que só podem ser acessados dentro
   * Exemplo 2:
     * Uso de métodos protected para permitir que subclasses executem operações específicas sem expor a implementação interna.
 
-1. [Exemplo Prático](exemplo.java)
+1. [Exemplo Prático](Main.java)
 
 <!-- Informações -->
 ## &#8505; Informações
