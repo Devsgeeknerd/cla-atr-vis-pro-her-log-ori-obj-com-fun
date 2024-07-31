@@ -10,7 +10,24 @@ class Pessoa {
   }
 
   // Método protected.
-  protected void _apresentarDados(){
+  protected void apresentarDados(){
     System.out.println("Nome: " + nome + ", Idade: " + idade);
+  }
+}
+
+// Subclasse acessando membros protected da classe base.
+class Aluno extends Pessoa {
+  private String matricula;
+
+  // Construtor
+  public Aluno(String nome, int idade, String matricula){
+    super(nome, idade);
+    this.matricula = matricula;
+  }
+
+  // Chama o método protected da superclasse.
+  public void mostrarInfomacoes(){
+    apresentarDados();
+    System.out.println("Matricula: " + matricula);
   }
 }
