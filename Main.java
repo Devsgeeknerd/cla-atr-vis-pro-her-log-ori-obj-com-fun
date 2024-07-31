@@ -4,13 +4,13 @@ class Pessoa {
   protected int idade;
 
   // Construtor
-  public Pessoa(String nome, int idade){
+  public Pessoa(String nome, int idade) {
     this.nome = nome;
     this.idade = idade;
   }
 
   // Método protected.
-  protected void apresentarDados(){
+  protected void apresentarDados() {
     System.out.println("Nome: " + nome + ", Idade: " + idade);
   }
 }
@@ -20,14 +20,21 @@ class Aluno extends Pessoa {
   private String matricula;
 
   // Construtor
-  public Aluno(String nome, int idade, String matricula){
+  public Aluno(String nome, int idade, String matricula) {
     super(nome, idade);
     this.matricula = matricula;
   }
 
   // Chama o método protected da superclasse.
-  public void mostrarInfomacoes(){
+  public void mostrarInfomacoes() {
     apresentarDados();
     System.out.println("Matricula: " + matricula);
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    Aluno aluno = new Aluno("Paulo", 20, "98731154");
+    aluno.mostrarInfomacoes();
   }
 }
