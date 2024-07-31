@@ -1,15 +1,16 @@
-// Classe base com um atributo "protected."
+// Classe base com um atributo protected.
 class Pessoa {
-  String _nome;
-  int _idade;
+  protected String nome;
+  protected int idade;
 
-  Pessoa(
-    this._nome,
-    this._idade,
-  );
+  // Construtor
+  public Pessoa(String nome, int idade){
+    this.nome = nome;
+    this.idade = idade;
+  }
 
   // Método protected.
   protected void _apresentarDados(){
-    print('Nome: $_nome, Idade: $_idade);
+    System.out.println("Nome: " + nome + ", Idade: " + idade);
   }
 }
